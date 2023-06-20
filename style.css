@@ -1,0 +1,200 @@
+body {
+    font-family: 'Avenir';
+    background-color: #1d1d1d;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body .page {
+    margin: 20px 80px;
+}
+
+/* ---------- Barre de naviguation ---------- */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #1d1d1d;
+    /*background-attachment: fixed;*/
+    padding: 10px 0px;
+}
+
+nav .logo {
+    margin-top: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+nav .logo img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: auto;
+    align-content: center;
+}
+
+nav .buttons button {
+    padding: 13px 20px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+nav .buttons .login {
+    background-color: inherit;
+    margin-right: 10px;
+    color: #27a311;
+}
+
+nav .buttons .login:hover {
+    background-color: inherit;
+    margin-right: 10px;
+    color: white;
+    transition: 0.4s;
+}
+
+nav .buttons .register {
+    background-color: #27a311;
+    margin-right: 10px;
+    color: white;
+}
+
+nav .buttons .register:hover {
+    background-color: white;
+    margin-right: 10px;
+    color: #1d1d1d;
+    transition: 0.4s;
+}
+
+/* ---------- Fin de barre de naviguation ---------- */
+
+/* ---------- Header (Case1) ---------- */
+
+header {
+    background: url(img/ecommerce4.png) no-repeat center center ;
+    background-size: cover;
+    color: white;
+    padding: 270px;
+}
+
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    filter: drop-shadow(0 0 0.75rem #27a311);
+}
+
+header p {
+    font-size: 22px;
+    text-align: center;
+}
+
+/* ---------- Fin du Header ---------- */
+
+/* ---------- Corps de la page (Case2, Case3, Case4) ---------- */
+
+.case2 {
+    background: linear-gradient(#27a311, rgb(0, 119, 0));
+    padding: 7%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    text-align: left;
+}
+
+.case2 img {
+    width: auto;
+    height: 250px;
+    align-content: right;
+    margin-right: 60px;
+}
+
+.case3 {
+    background-color: whitesmoke;
+    padding: 0;
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
+.case3 .slider {
+    width: auto;
+    height: 400px;
+}
+
+.case3 img {
+    width: auto;
+    height: 250px;
+    /*align-content: right;
+    margin-right: 60px;*/
+}
+
+.case4 {
+    background-color: #d4f9ce;
+    /*justify-content: space-between;*/
+    color: #27a311;
+    display: flex;
+    padding-top: 7%;
+    padding-right: 7%;
+    padding-left: 7%;
+    font-size: 22px;
+    text-align: left;
+}
+
+.case4 img {
+    height: 700px;
+    width: auto;
+    left: 20px;
+    margin-right: 60px;
+
+}
+
+/* ---------- Fin du corps de la page ---------- */
+
+/* ---------- Pied de page ---------- */
+
+footer{
+    background-color: #1a1a1a;
+    padding: 30px 100px;
+    color: #828282;
+    font-size: 17px;
+}
+
+footer .colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer .colonne p:hover {
+    color: white;
+    transition: 0.4s;
+}
+footer .colonne1 p:hover {
+    color: white;
+    transition: 0.4s;
+}
+
+footer h5 {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+footer .colonne1 h5 {
+    color: #27a311;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #27a311;
+}
+
+/* ---------- Fin du pied de page ---------- */
